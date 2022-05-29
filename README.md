@@ -61,4 +61,66 @@ Hasil uji terletak di interval nilai kritikal, maka H0 tidak ditolak/sample tida
 F.Kesimpulan
 kesimpulannya adalah 95% rata-rata saham di Bali dan di Bandung adalah sama.
 
+### Soal 4
+diketahui dataset https://intip.in/datasetprobstat1
+H0 : Tidak ada perbedaan panjang antara ketiga spesies atau rata-rata panjangnya
+sama
+Maka Kerjakan atau Carilah:
+A. Buatlah masing masing jenis spesies menjadi 3 subjek "Grup" (grup 1,grup
+2,grup 3). Lalu Gambarkan plot kuantil normal untuk setiap kelompok dan
+lihat apakah ada outlier utama dalam homogenitas varians.
+```r
+myFile  <- read.table(url("https://rstatisticsandresearch.weebly.com/uploads/1/0/2/6/1026585/onewayanova.txt"))
+dim(myFile)
+head(myFile)
+attach(myFile)
 
+myFile$V1 <- as.factor(myFile$V1)
+myFile$V1 = factor(myFile$V1,labels = c("Kucing Oren","Kucing Hitam","Kucing Putih","Kucing Oren"))
+
+class(myFile$V1)
+
+group1 <- subset(myFile, V1=="Kucing Oren")
+group2 <- subset(myFile, V1=="Kucing Hitam")
+group3 <- subset(myFile, V1=="Kucing Putih")
+
+```
+
+B. carilah atau periksalah Homogeneity of variances nya , Berapa nilai p yang
+didapatkan? , Apa hipotesis dan kesimpulan yang dapat diambil ?
+```r
+bartlett.test(Length~V1, data=dataoneway)
+```
+C. Untuk uji ANOVA (satu arah), buatlah model linier dengan Panjang versus
+Grup dan beri nama model tersebut model 1.
+```r
+qqnorm(group1$Length)
+qqline(group1$Length)
+
+```
+
+D. Dari Hasil Poin C, Berapakah nilai-p ? , Apa yang dapat Anda simpulkan
+dari H0?
+```r
+dari pengujian diatas, didapatkan
+bartlett = 0.43292
+p-value = 0.8054
+```
+E. Verifikasilah jawaban model 1 dengan Post-hoc test Tukey HSD, dari nilai p
+yang didapatkan apakah satu jenis kucing lebih panjang dari yang lain?
+
+```r
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+
+```
