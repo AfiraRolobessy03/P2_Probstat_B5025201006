@@ -25,3 +25,17 @@ pengaruh yang signifikan secara statistika dalam hal kadar saturasi
 oksigen , sebelum dan sesudah melakukan aktivitas 𝐴”
 ![hasil 1 c](https://user-images.githubusercontent.com/81508591/170878947-fc3c028b-bc6c-404a-ba5b-31710c699066.JPG)
 Terdapat pengaruh yang signifikan secara statistik terhadap kadar saturasi oksigen sebelum dan sesudah aktivitas jika taraf signifikansi = 5% dan H0 diketahui: “Tidak terdapat pengaruh yang signifikan secara statistik terhadap kadar saturasi oksigen sebelum dan sesudah aktivitas melakukan aktivitas”
+
+#### Soal 2
+library seperti referensi pada modul).
+A.Apakah Anda setuju dengan klaim tersebut?
+Setuju
+
+B.Jelaskan maksud dari output yang dihasilkan!
+![hasil 2](https://user-images.githubusercontent.com/81508591/170879251-36ad8e0d-f80c-4ab8-8eeb-8a983b356a77.JPG)
+
+C.Buatlah kesimpulan berdasarkan P-Value yang dihasilkan!
+berdasarkan P-Value yang dihasilkan! kesimpulan dari soal diatas adalah mobil yang digunakan rata ratanya lebih dari 20.000 km/tahun
+
+
+
