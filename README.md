@@ -32,10 +32,33 @@ A.Apakah Anda setuju dengan klaim tersebut?
 Setuju
 
 B.Jelaskan maksud dari output yang dihasilkan!
-![hasil 2](https://user-images.githubusercontent.com/81508591/170879251-36ad8e0d-f80c-4ab8-8eeb-8a983b356a77.JPG)
+![hasil 2](https://user-images.githubusercontent.com/81508591/170879783-01244054-33a4-4b33-9306-8835db620f74.JPG)
 
 C.Buatlah kesimpulan berdasarkan P-Value yang dihasilkan!
 berdasarkan P-Value yang dihasilkan! kesimpulan dari soal diatas adalah mobil yang digunakan rata ratanya lebih dari 20.000 km/tahun
 
+#### Soal 3
+Dari data diatas berilah keputusan serta kesimpulan yang didapatkan dari hasil
+diatas. Asumsikan nilai variancenya sama, apakah ada perbedaan pada
+rata-ratanya (α= 0.05)? Buatlah :
+A.H0 dan H1
+```r
+H0 = 9.50
+H1 = 10.98
+```
+B. Hitung Sampel Statistik
+![3 b](https://user-images.githubusercontent.com/81508591/170879982-15e8c522-d903-49da-a73d-4ae2cf7b4b23.JPG)
+
+C. Lakukan Uji Statistik (df =2)
+![3 c](https://user-images.githubusercontent.com/81508591/170880109-cfcde55b-a783-4fdd-a8f4-d84366121d98.JPG)
+
+D. Nilai Kritikal
+![3 d](https://user-images.githubusercontent.com/81508591/170880126-3b968a33-c02a-4cae-b319-c5045e179d83.JPG)
+
+E. Keputusan
+Hasil uji terletak di interval nilai kritikal, maka H0 tidak ditolak/sample tidak memiliki cukup bukti yang bertentangan dengan H0.
+
+F.Kesimpulan
+kesimpulannya adalah 95% rata-rata saham di Bali dan di Bandung adalah sama.
 
 
